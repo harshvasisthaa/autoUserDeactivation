@@ -28,11 +28,11 @@ Please find below steps to setup the system after installation:
        From Last Login Date: <true|false>
   Please find below example of the records
   - Setup 1st feature (Please find below example)
-        From Last Login Date: false
+        "From Last Login Date: false"
       - Configuration where the users will be deactiavted after 1 day regradless they login or not:
         ![Example record 1](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/record_example_2.png?raw=true)
   - Setup 2nd feature (Please find below example)
-        From Last Login Date: true
+        "From Last Login Date: true"
       - Configuration where the users will be deactiavted if they do not login for 1 day:
         ![Example record 1](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/record_example_1.png?raw=true)
 
