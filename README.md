@@ -7,7 +7,7 @@ The "Auto User Deactivation" package supports below features:
 - Set the user inactive from last login days.
   - In this case, users of the profile will be deactivetd if they do not login for given number of days.
  
-
+## Installation
 A package to install in Salesforce using
 - From this repository
   - As the code is open-source, you can download this repository and deploy the component in-to salesforce.
