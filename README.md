@@ -3,9 +3,10 @@
 ## Features
 The "Auto User Deactivation" package supports below features:
 - Set the deactivate date of the user during the creation
-  - In this case, users of the profile will be deactivated on the given day, regardless user has logged in to salesforce at any given days.
+  - In this case, users of the profile will be deactivated (recorring) after the given day, regardless user has logged in to salesforce at any given days.
 - Set the user inactive from last login days.
   - In this case, users of the profile will be deactivetd if they do not login for given number of days.
+The process will only deactivate the users, the enablement has to be executed manually.
  
 ## Installation
 A package to install in Salesforce using
