@@ -20,19 +20,21 @@ A package to install in Salesforce using
 
 ## Setup
 Please find below steps to setup the system after installation:
-### 1. Go to "Setup" > "Custom Metadata Types" > "Auto User Inactive", The custom metadata will look like below:
+### Go to "Setup" > "Custom Metadata Types" > "Auto User Inactive", The custom metadata will look like below:
 ![Auto user inactive custom metadata](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/custom_metadata.png?raw=true)
-### 2. Click "Manage Auto Users Inactive" > "New" and create below record:
+### Click "Manage Auto Users Inactive" > "New" and create below record:
        Label : <Profile Nmae>
        Number of Daye: <Any positive integer value>
        From Last Login Date: <true|false>
   Please find below example of the records
-  - Configuration where the users will be deactiavted after 1 day regradless they login or not:
-    ![Example record 1](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/record_example_2.png?raw=true)
-  - Configuration where the users will be deactiavted if they do not login for 1 day:
-    ![Example record 1](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/record_example_1.png?raw=true)
+  - Setup 1st feature (Please find below example)
+      - Configuration where the users will be deactiavted after 1 day regradless they login or not:
+        ![Example record 1](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/record_example_2.png?raw=true)
+  - Setup 2nd feature (Please find below example)
+      - Configuration where the users will be deactiavted if they do not login for 1 day:
+        ![Example record 1](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/record_example_1.png?raw=true)
 
-### 3. Schedule the process. Go to "Setup" > "Apex Classes" > click on "Schedule Apex" and schedule the batch class named "DeactivateUsersBatch".
+### Schedule the process. Go to "Setup" > "Apex Classes" > click on "Schedule Apex" and schedule the batch class named "DeactivateUsersBatch".
   I would recommend to schedule the batch process once a week. We could schedule it to be executed daily.
   Please find below example, where batch will run on every sunday and deactiavte the required users:
   ![Batch Setip](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/sample_batch_scheduled_weekly_sunday.png?raw=true)
