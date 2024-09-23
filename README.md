@@ -24,3 +24,8 @@ Please find below steps to setup the system after installation:
        Label : <Profile Nmae>
        Number of Daye: <Any positive integer value>
        From Last Login Date: <true|false>
+  Please find below example of the records
+  - Configuration where the users will be deactiavted if they do not login for 1 day:
+    ![Example record 1](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/record_example_1.png?raw=true)
+  - Configuration where the users will be deactiavted after 1 day regradless they login or not:
+    ![Example record 1](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/record_example_2.png?raw=true)
