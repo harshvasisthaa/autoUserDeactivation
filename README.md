@@ -29,3 +29,8 @@ Please find below steps to setup the system after installation:
     ![Example record 1](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/record_example_1.png?raw=true)
   - Configuration where the users will be deactiavted after 1 day regradless they login or not:
     ![Example record 1](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/record_example_2.png?raw=true)
+
+### 3. Schedule the process. Go to "Setup" > "Apex Classes" > click on "Schedule Apex" and schedule the batch class named "DeactivateUsersBatch".
+  I would recommend to schedule the batch process once a week. We could schedule it to be executed daily.
+  Please find below example, where batch will run on every sunday and deactiavte the required users:
+  ![Batch Setip](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/sample_batch_scheduled_weekly_sunday.png?raw=true)
