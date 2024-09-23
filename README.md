@@ -20,3 +20,7 @@ A package to install in Salesforce using
 Please find below steps to setup the system after installation:
 ### 1. Go to "Setup" > "Custom Metadata Types" > "Auto User Inactive", The custom metadata will look like below:
 ![Auto user inactive custom metadata](https://github.com/harshvasisthaa/autoUserDeactivation/blob/main/images/custom_metadata.png?raw=true)
+### 2. Click "Manage Auto Users Inactive" > "New" and create below record:
+       Label : <Profile Nmae>
+       Number of Daye: <Any positive integer value>
+       From Last Login Date: <true|false>
